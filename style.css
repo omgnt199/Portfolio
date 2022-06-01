@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+.content > div {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.header{
+    position: relative;
+    height: 100px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.header > div {
+
+}
+.header-center {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-center a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-right button{
+        height: 40px;
+        width: 120px;
+        background-color: yellow;
+}
+.content-introduce h1 {
+    width: 400px;
+}
+.content-introduce h5{
+    width: 350px;
+}
+.logo-companies{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-introduce-web {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-introduce-web div a{
+    display: block;
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+}
+.content-introduce-web div h5{
+    font-weight: 100;
+}
+.content-communities{
+    background-color: rgb(56, 55, 55);
+    height: 300px;
+    margin: 0 !important;
+
+}
+.founder{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.founder div h6 {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.founder2{
+    width: 530px;
+}
